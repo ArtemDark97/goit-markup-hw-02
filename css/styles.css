@@ -1,0 +1,88 @@
+:root {
+    --primary-text-color: #434455; 
+    --title-text-color: #2E2F42;
+    --text-selection-color: #404BBF;
+    --hero-footer-background-color: #2E2F42;
+    --main-background-color:  #FFF;
+}
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: var(--main-background-color); 
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.web {
+    color:#4D5AE5;
+}
+.studio {
+    color: var(--title-text-color)
+}
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--text-selection-color);
+}
+
+.contacts .link {
+    color: var(--title-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--text-selection-color);    
+}
+
+.hero {
+    background-color: var(--hero-footer-background-color);
+}
+
+.hero-title {
+    color:#FFF;
+}
+.hero-btn {
+    color:#FFF;
+    background-color: #4D5AE5;
+    border: none;
+    cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--text-selection-color);
+}
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+.feature .title {
+    color: var(--title-text-color);
+}
+
+.team .title {
+    color: var(--title-text-color);
+}
+
+.bottom {
+    background-color: var(--hero-footer-background-color);
+}
+.bottom-web {
+    color: #4D5AE5;
+}
+.bottom-studio {
+    color: #F4F4FD;
+}
+.bottom-text {
+   color: #E7E9FC;
+}
