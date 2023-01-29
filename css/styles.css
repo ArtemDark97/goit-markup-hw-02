@@ -4,6 +4,8 @@
     --text-selection-color: #404BBF;
     --hero-footer-background-color: #2E2F42;
     --main-background-color:  #FFF;
+    --features-btn-color: #4D5AE5;
+    --features-btn-background-color: #F4F4FD;
 }
 
 body {
@@ -14,6 +16,10 @@ body {
     line-height: 24px;
     background-color: var(--main-background-color); 
     color: var(--primary-text-color);
+}
+
+a {
+    text-decoration: none; 
 }
 
 .list {
@@ -49,10 +55,10 @@ body {
 }
 
 .hero-title {
-    color:#FFF;
+    color: var(--main-background-color);
 }
 .hero-btn {
-    color:#FFF;
+    color: var(--main-background-color);
     background-color: #4D5AE5;
     border: none;
     cursor: pointer;
@@ -86,3 +92,30 @@ body {
 .bottom-text {
    color: #E7E9FC;
 }
+
+.features-btn {
+    color: var(--features-btn-color);
+    background-color: var(--features-btn-background-color);
+    border: 1px;
+    border-color: #E7E9FC;
+    cursor: pointer;
+}
+
+.features-btn:hover,
+.features-btn:focus {
+    color: var(--main-background-color);
+    background-color: var(--text-selection-color);
+    border: 1px;
+    border-color: #E7E9FC;
+    cursor: pointer; 
+}
+
+.features-description .title {  
+    color: var(--title-text-color);
+}
+
+.features-description .text {
+    color: var(--primary-text-color);
+}
+
+
